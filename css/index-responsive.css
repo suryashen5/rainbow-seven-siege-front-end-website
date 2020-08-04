@@ -1,0 +1,130 @@
+@media only screen and (max-width:800px) {
+  .container-page-1{
+    background-repeat: no-repeat;
+    width:100%;
+    height: 180px;
+  }
+
+  .container-page-1-logo{
+    width:30%;
+  }
+
+  .double-arrow{
+    width: 5%;
+  }
+
+  .container-page-2{
+    width:100%;
+    height: 200px;
+  }
+
+  .title-main{
+    left: 44px;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    /* margin: 26px 0px 0px 0px; */
+  }
+
+  .season-flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .season-content{
+    text-align: center;
+    margin: 2%;
+    color: white;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .season-slide{
+    display: none;
+    max-width: 100%;
+    margin: auto;
+  }
+  .season-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .season-name{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    font-size: 3vw;
+  }
+  
+  .season-arrow-left{
+    text-align: center;
+    /* margin: 2%; */
+    color: white;
+    width: 25%;
+    height: auto;
+    /* border-width: 10px; */
+  }
+  
+  .season-arrow-right{
+    text-align: center;
+    /* margin: 2%; */
+    color: white;
+    width: 25%;
+    height: auto;
+    /* border-width: 10px; */
+  }
+  
+  .arrow-right{
+    width: 50%;
+  }
+  
+  .arrow-left{
+    width: 50%;
+  }
+  
+  .container-page-3{
+    width:100%;
+    height: auto;
+  }
+
+  .news-content{
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+
+  .latest-news{
+    margin-top: 2%;
+  }
+
+  .latest-news-container{
+    /* width:100%; */
+    /* padding-left: 10%; */
+    margin: 0% 0% 0% 10%;
+  }
+  /* .latest-news-content{
+    margin-right: 10%;
+  } */
+
+  .latest-news-date{
+  font-size: 1em;
+  color: #888888;
+  /* margin-top: 5px; */
+  }
+
+  .latest-news-title{
+    font-size: 6vw;
+    /* margin-top: 5px; */
+  }
+
+  .latest-news-text{
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin-top: 5px;
+    /* padding-right: 10px; */
+  }
+}

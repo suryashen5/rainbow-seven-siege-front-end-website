@@ -1,0 +1,211 @@
+.body {
+  margin: 0;
+  width: 100%;
+}
+.container {
+  /* position: relative; */
+  text-align: center;
+  width: 100%;
+}
+
+.container-page-1 {
+  background-color: rgb(0, 0, 0, 0.8);
+  background-image: url("../assets/image/homepage/homepage-bg-1.jpg");
+  background-blend-mode: overlay;
+  overflow: hidden;
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-page-1-logo {
+  display: block;
+  padding: 10% 2% 0% 2%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 18%;
+}
+
+.double-arrow {
+  cursor: pointer;
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.container-page-2 {
+  background-color: #000000c7;
+  background-image: url("../assets/image/homepage/season-bg.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.title-main {
+  left: 44px;
+  font-size: 4vw;
+  text-align: center;
+  color: white;
+}
+
+.season-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  height: 750px;
+}
+
+.season-content {
+  text-align: center;
+  color: white;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.season-slide {
+  display: none;
+  max-width: 100%;
+  margin: auto;
+}
+.season-image {
+  width: 100%;
+  height: auto;
+}
+
+.season-name {
+  width: 100%;
+  height: auto;
+  background-color: #272727;
+  color: white;
+  font-size: 3vw;
+}
+
+.season-arrow {
+  text-align: center;
+  padding-top: 10%;
+  width: 25%;
+  height: auto;
+}
+
+.arrow-prev,
+.arrow-next {
+  width: 100%;
+  font-size: 7vw;
+  color: white;
+  cursor: pointer;
+}
+
+.arrow-prev:hover,
+.arrow-next:hover {
+  color: grey;
+}
+
+.container-page-3 {
+  background-color: #000605;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.news-content {
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.highlight {
+  width: 100%;
+  text-align: center;
+  margin: 0% auto 0% auto;
+}
+
+.title-sub {
+  color: white;
+  font-size: 2em;
+}
+
+.highlight-image {
+  width: 80%;
+  height: auto;
+}
+
+.highlight-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #272727;
+  color: white;
+  width: 80%;
+  height: auto;
+}
+
+.highlight-title {
+  font-size: 1.75em;
+  letter-spacing: 1px;
+  padding-top: 3px;
+}
+
+.highlight-text {
+  font-size: 1.5em;
+  font-family: "Scout Condensed Light";
+  padding: 0px 40px 10px 40px;
+}
+
+.latest-news {
+  width: 100%;
+  text-align: center;
+  margin: 0% auto 0% auto;
+}
+
+.latest-news-container {
+  display: flex;
+  text-align: left;
+  padding: 0% 10% 5% 0%;
+}
+
+.latest-news-image {
+  width: 31%;
+}
+
+.latest-news-content {
+  background-color: #272727;
+  color: white;
+  padding: 2% 2% 2% 2%;
+  width: 100%;
+}
+
+.latest-news-date {
+  font-family: "Scout Condensed Thin";
+  font-size: 1em;
+  margin-bottom: 2%;
+  color: #888888;
+  /* margin-top: 5px; */
+}
+
+.latest-news-title {
+  font-size: 1.75em;
+  letter-spacing: 1px;
+}
+
+.latest-news-text {
+  font-size: 1.5em;
+  font-family: "Scout Condensed Light";
+  letter-spacing: 1px;
+  margin-top: 5px;
+  /* padding-right: 10px; */
+}

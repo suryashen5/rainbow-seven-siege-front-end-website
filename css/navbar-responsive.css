@@ -1,0 +1,54 @@
+.navbar-vertical {
+  position: fixed;
+  background-color: black;
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-top: 18%;
+  padding: 10px 5%;
+  height: auto;
+  color: white;
+}
+
+.navbar-vertical button {
+  display: none;
+}
+
+.navbar-vertical-hide {
+  display: none;
+}
+
+.navbar-vertical li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+nav .nav-menu {
+  width: 1.5rem;
+}
+
+.nav-menu-hide {
+  display: none;
+}
+
+.nav-menu-show {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  nav .navbar-container {
+    padding: 3% 5% 0 5%;
+  }
+
+  nav .navbar-container .logo-container {
+    width: 15%;
+  }
+
+  nav .navbar-container .navbar-side-container #menuIcon {
+    display: block;
+  }
+  nav .navbar-container .navbar-side-container .nav-text {
+    display: none;
+  }
+}

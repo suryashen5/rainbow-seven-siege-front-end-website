@@ -1,0 +1,32 @@
+.img-background {
+  background-image: url("../assets/image/zwG8tL8-carbon-fiber-wallpaper.jpg");
+}
+
+.operator-box-container {
+  display: flex;
+  padding: 35px 100px;
+  height: 100%;
+}
+
+.operator-box-container h1 {
+  font-family: "Scout Condensed Bold";
+  font-size: 2.5em;
+}
+
+.img-operator-container .img-operator {
+  width: 125px;
+}
+
+.character-info {
+  margin-left: 150px;
+  width: 100%;
+  max-width: 100%;
+  color: white;
+}
+
+.character-info p {
+  margin-top: 40px;
+  max-width: 100%;
+  font-size: 2em;
+  font-family: "Scout Condensed Light";
+}

@@ -1,0 +1,48 @@
+.landing-page {
+  width: 100%;
+  object-fit: cover;
+  height: 85vh;
+}
+
+.quarantine-box {
+  display: flex;
+}
+
+.teaser-img {
+  object-fit: cover;
+  width: 50%;
+}
+
+.description {
+  width: 50%;
+  background-color: #fbe132;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  padding: 3%;
+}
+
+@media only screen and (max-width: 800px) {
+  .landing-page {
+    width: 100%;
+    object-fit: cover;
+    object-position: 89.5%;
+    height: 92vh;
+  }
+  .quarantine-box {
+    flex-wrap: wrap;
+  }
+
+  .reverse {
+    flex-wrap: wrap-reverse;
+  }
+
+  .teaser-img {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 1.5em;
+  }
+}

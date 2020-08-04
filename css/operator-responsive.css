@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+  .operator-box-container {
+    padding: 35px 25px;
+  }
+
+  .character-info {
+    margin-left: 70px;
+  }
+
+  .character-info p {
+    font-size: 1.5em;
+  }
+}

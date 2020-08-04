@@ -1,0 +1,13 @@
+@media  only screen and (max-width: 800px) {
+    .copyright-text p {
+        font-size: 0.6rem;
+        /* width: 15rem; */
+    }   
+}
+
+@media only screen and (max-width: 540px) {
+    .copyright-text p {
+        font-size: 0.3rem;
+        width: 65vw;
+    }
+}

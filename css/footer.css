@@ -1,0 +1,48 @@
+footer {
+  border-top: 5px solid white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*position: fixed;*/
+  color: white;
+  background-color: black;
+}
+
+footer .footer-logo-container {
+  text-align: center;
+}
+
+footer .footer-logo-container .find-us-text {
+  font-size: 2.3em;
+  padding: 15px 0;
+}
+
+footer .footer-logo-container .social-media {
+  justify-content: center;
+}
+
+footer .footer-logo-container .footer-logo-img {
+  width: 40px;
+  margin-right: 0.7em;
+}
+
+.footer-logo-container ul {
+  list-style: none;
+  width: 400px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.footer-logo-container li {
+  display: inline-block;
+}
+
+.copyright-text p {
+  font-size: 0.9em;
+  text-align: center;
+  width: 705px;
+  margin: 15px auto;
+  font-family: "Roboto";
+  opacity: 0.5;
+  max-width: 100%;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Scout Condensed Bold";
+  src: url("../assets/fonts/ScoutCond-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Scout Condensed Light";
+  src: url("../assets/fonts/ScoutCond-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Scout Condensed Regular";
+  src: url("../assets/fonts/ScoutCond-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Scout Condensed Thin";
+  src: url("../assets/fonts/ScoutCond-Thin.otf") format("opentype");
+}

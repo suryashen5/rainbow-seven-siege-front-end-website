@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  font-family: "Scout Condensed Bold";
+}
+
+.container {
+  padding-top: 111.55px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.btn {
+  border-radius: 1;
+  display: block;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding-top: 68.3px;
+  }
+}

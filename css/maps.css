@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  color: white;
+  font-size: 2.55em;
+}
+
+.maps-container {
+  display: flex;
+  margin: 2% 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.maps-box {
+  margin: 0 auto 15px auto;
+}
+
+.maps-image {
+  width: 300px;
+}
+
+.map-name {
+  font-family: "Scout Condensed Thin";
+  color: white;
+  text-align: center;
+  background-color: #272727;
+}

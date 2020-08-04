@@ -1,0 +1,41 @@
+.preorder-header-text {
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3em;
+    margin: 50px 0;
+}
+
+
+form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+form .form-group {
+    font-family: 'Oswald';
+    color: white;
+    margin: 2% 0;
+}
+
+form label {
+    font-size: 36px;
+}
+
+form .form-control {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form .btn {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+
