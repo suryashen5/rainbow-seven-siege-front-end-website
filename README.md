@@ -14,7 +14,6 @@ Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat in
         <li>Navbar akan selalu muncul di setiap page/halaman</li>
        </ul>
   <p>
-<br/>
 <h3>Home Page</h3>
 <p>
   Merupakan halaman utama dari prototype aplikasi. Home Page memiliki tiga bagian/section utama, diantaranya sebagai berikut 
