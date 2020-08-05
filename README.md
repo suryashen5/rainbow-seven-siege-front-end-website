@@ -13,7 +13,7 @@ Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat in
             fokus untuk pre-order (membeli).</li>
         <li>Navbar akan selalu muncul di setiap page/halaman</li>
        </ul>
-  <p>
+  <p><br/>
 <h3>Home Page</h3>
 <p>
   Merupakan halaman utama dari prototype aplikasi. Home Page memiliki tiga bagian/section utama, diantaranya sebagai berikut 
@@ -35,7 +35,9 @@ Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat in
     </li>    
   </ol>
  </p>
-  Untuk melihat prototype Home Page, dapat membuka file index.html atau menekan kata "HOME" pada Navbar
+  <p>
+   Untuk melihat prototype Home Page, dapat membuka file index.html atau menekan kata "HOME" pada Navbar
+  </p>
   <br/>
   <h3>Pre-Order Page</h3>
 <p>
@@ -51,24 +53,30 @@ Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat in
     <li>Submit   = User menekan tombol submit</li>
   </ul>
 </p>
-  Untuk melihat prototype Pre-Order Page, dapat membuka file pre-order.html atau menekan kata "PRE-ORDER" pada Navbar
+  <p>
+   Untuk melihat prototype Pre-Order Page, dapat membuka file pre-order.html atau menekan kata "PRE-ORDER" pada Navbar
+  </p>
 <br/>
 <h3>Map Page</h3>
 <p>
   Merupakan sebuah halaman yang menampilkan peta yang dapat digunakan saat bermain game Rainbow Siege. Kami menampilkan peta dalam 
   bentuk gambar serta nama dari peta.
 </p>
-  Untuk melihat prototype Pre-Order Page, dapat membuka file pre-order.html atau dengan mengarahkan kursor pada kata "GAME INFO"  
-  pada Navbar, lalu tekan kata "MAPS" yang akan muncul dibawah kata "GAME INFO"
+  <p>
+   Untuk melihat prototype Pre-Order Page, dapat membuka file pre-order.html atau dengan mengarahkan kursor pada kata "GAME INFO" 
+   pada Navbar, lalu tekan kata "MAPS" yang akan muncul dibawah kata "GAME INFO"
+  </p>
 <br/>
 <h3>Operator Page</h3>
 <p>
   Merupakan sebuah halaman yang menampilkan karakter yang dapat digunakan saat bermain game Rainbow Siege. Kami menampilkan 
   karakter dalam bentuk gambar, serta kalimat penjelasan karakter yang kami tempatkan di samping gambar<
  </p>
-  Untuk melihat prototype Operator Page, dapat membuka file operator.html Untuk melihat prototype Pre-Order Page, dapat membuka 
-  file pre-order.html atau dengan mengarahkan kursor pada kata "GAME INFO"  pada Navbar, lalu tekan kata "OPERATORS" yang akan 
-  muncul dibawah kata "GAME INFO".
+  <p>
+   Untuk melihat prototype Operator Page, dapat membuka file operator.html Untuk melihat prototype Pre-Order Page, dapat membuka 
+   file pre-order.html atau dengan mengarahkan kursor pada kata "GAME INFO"  pada Navbar, lalu tekan kata "OPERATORS" yang akan 
+   muncul dibawah kata "GAME INFO".
+  </p>
 <br/>
 <h3> Quarantine Page</h3>
 <p>
@@ -76,7 +84,9 @@ Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat in
   menampilkan jenis-jenis mode Quanrantine dalam bentuk gambar dan tulisan sebagai bentuk penjelasan.
   pada setiap mode, kami membuat letak gambar dan tulisan berbeda-beda, agar tidak terlihat monoton.
 </p>
+<p>
   Untuk melihat prototype Quarantin Page, dapat membuka file quarantine.html
+</p>
 <br/>
 <h3>Footer</h3>
 <p> 
