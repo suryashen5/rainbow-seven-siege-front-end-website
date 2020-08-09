@@ -1,5 +1,10 @@
 # Rainbow Siege Website Prototype
-Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkelompok. Saya dan tim ditugaskan untuk membuat prototype dari sebuah website yang berfungsi sebagai tempat pembelian sebuah game. Kami membuat
+
+Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkelompok. Untuk melihat hasil project saya dan tim, dapat dilihat disini:<br/>
+https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
+<br/>
+
+Saya dan tim ditugaskan untuk membuat prototype dari sebuah website yang berfungsi sebagai tempat pembelian sebuah game. Kami membuat
 prototype website ini dengan menggunakan HTML, CSS, dan JavaScript.
 Selain sebagai tempat pembelian, di dalam prototype website ini juga terdapat informasi mengenai game tersebut. Prototype website kami memiliki beberapa komponen sebagai berikut
 <br/><br/>
