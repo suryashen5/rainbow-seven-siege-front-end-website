@@ -1,6 +1,6 @@
 # Rainbow Siege Website
 
-Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkelompok. Saya bertanggung jawab atas pembuatan Home PageUntuk melihat hasil project saya dan tim, dapat dilihat disini:<br/>
+Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkelompok. Saya bertanggung jawab atas pembuatan Home Page. Untuk melihat hasil project saya dan tim, dapat dilihat disini:<br/>
 https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
 <br/>
 
