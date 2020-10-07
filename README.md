@@ -4,10 +4,12 @@ Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkel
 https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
 <br/>
 
-Saya dan tim ditugaskan untuk membuat sebuah website yang berfungsi sebagai tempat pembelian sebuah game. Kami membuat
- website ini dengan menggunakan HTML, CSS, dan JavaScript.
-Selain sebagai tempat pembelian, di dalam  website ini juga terdapat informasi mengenai game tersebut.  website kami memiliki beberapa komponen sebagai berikut
+<h2> Project Objective </h2>
+Saya dan tim ditugaskan untuk membuat sebuah tampilan website (front-end) yang berfungsi sebagai tempat pembelian sebuah game, yaitu Rainbow Six Siege. Selain sebagai tempat pembelian, di dalam  website ini juga terdapat informasi mengenai game tersebut, seperti jenis game, karakter game, hingga berita seputar game Rainbow Six Siege. Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript.
+
 <br/><br/>
+<h2> Project Result </h2>
+Dengan tujuan seperti yang sudah dibahas diatas, maka saya dan tim membuat sebuah tampilan website dengan beberapa fitur sebagai berikut
 <h3>Navbar (Navigation Bar)</h3>
    <p>
       Navbar bersifat fixed dimana posisi navbar akan tetap terlihat (di atas) saat kita men-scroll prototype website ini.  Navbar 
