@@ -1,11 +1,7 @@
 # Rainbow Siege Website
 
-Project ini merupakan salah satu tugas kuliah saya yang dikerjakan secara berkelompok. Saya bertanggung jawab atas pembuatan Home Page. Untuk melihat hasil project saya dan tim, dapat dilihat disini:<br/>
-https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
-<br/>
-
 <h2> Project Objective </h2>
-Saya dan tim ditugaskan untuk membuat sebuah tampilan website (front-end) yang berfungsi sebagai tempat pembelian sebuah game, yaitu Rainbow Six Siege. Selain sebagai tempat pembelian, di dalam  website ini juga terdapat informasi mengenai game tersebut, seperti jenis game, karakter game, hingga berita seputar game Rainbow Six Siege. Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript.
+Saya dan tim ditugaskan untuk membuat sebuah tampilan website (front-end) yang berfungsi sebagai tempat pembelian sebuah game, yaitu Rainbow 7 Siege. Selain sebagai tempat pembelian, di dalam  website ini juga terdapat informasi mengenai game tersebut, seperti jenis game, karakter game, hingga berita seputar game Rainbow Six Siege. Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript.
 
 <br/><br/>
 <h2> Project Result </h2>
@@ -103,3 +99,9 @@ Dengan tujuan seperti yang sudah dibahas diatas, maka saya dan tim membuat sebua
 <br/>
 Prototype website yang kami buat bersifat responsif, sehingga tampilan dari prototype tetap tersusun dengan rapih
 walaupun dibuka dengan tampilan mobile/smartphone
+
+<br/><br/>
+<h2>Conclusion</h2>
+Saya dan tim telah membuat tampilan website yang bertujuan untuk memberikan informasi dan tempat pembelian sebuah game, yaitu Rainbow 7 Siege. Untuk hasil dari website Rainbow 7 Siege, dapat dilihat di link dibawah ini: <br/>
+https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
+<br/>
