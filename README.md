@@ -99,5 +99,5 @@ walaupun dibuka dengan tampilan mobile/smartphone
 <br/><br/>
 <h2>Conclusion</h2>
 Saya dan tim telah membuat tampilan website yang bertujuan untuk memberikan informasi dan tempat pembelian sebuah game, yaitu Rainbow 7 Siege. Kami menggunakan berbagai macam variasi dari HTML, CSS, dan JavaScript dalam mendukung website dari Raibow 7 Siege. Untuk hasil dari website Rainbow 7 Siege, dapat dilihat di link dibawah ini: <br/>
-https://fadhilachmadi.github.io/rainbow-siege-front-end-website/.
+https://fadhilachmadi.github.io/rainbow-siege-website/.
 <br/>
