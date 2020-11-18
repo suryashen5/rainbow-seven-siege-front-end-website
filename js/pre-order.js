@@ -96,7 +96,7 @@ $(document).ready(function () {
 
   function validateType(type) {
     if (!notEmpty(type)) return sendResponse(false, "Type must be filled");
-    if (!onlyType(type)) return sendResponse(false, "Must be type");
+    if (!onlyType(type)) return sendResponse(false, "Please choose type");
     return true;
   }
 
