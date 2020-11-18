@@ -55,17 +55,17 @@ $(document).ready(function () {
 
   function validateUsername(username) {
     console.log("username");
-    if (!notEmpty(username)) return false;
 
-    if (!minLength(username, 5) || !maxLength(username, 20)) return false;
-    console.log(!minLength(username, 5) && !maxLength(username, 20));
-    return true;
+    if (!notEmpty(username)) return sendResponse(false, "Username must be filled");
+    else if (!length(username, 5, 20)) return sendResponse(false, "Username must between 5 and 20 alphabet");
+    else return true;
+
   }
 
   function validateEmail(email) {
     console.log("email");
 
-    if (!notEmpty(email)) return false;
+    if (!notEmpty(email)) return sendResponse(false, "Email must be filled");
 
     return true;
   }
@@ -73,48 +73,48 @@ $(document).ready(function () {
   function validatePassword(password) {
     console.log("password");
     console.log(password);
-    if (!notEmpty(password)) return false;
-
-    if (!minLength(password, 8)) return false;
+    if (!notEmpty(password)) return sendResponse(false, "Password must be filled");
+""
+    if (!minLength(password, 8)) return sendResponse(false, "Password must higher than 8");
 
     return true;
   }
 
   function validateAddress(address) {
     console.log(address);
-    if (!notEmpty(address)) return false;
+    if (!notEmpty(address)) return sendResponse(false, "Address must be filled");
     return true;
   }
 
   function validateQuantity(qty) {
-    if (!isNumber(qty)) return false;
+    if (!isNumber(qty)) return sendResponse(false, "Quantity must be number");
 
-    if (!isSafeNumber(qty)) return false;
+    if (!isSafeNumber(qty)) return sendResponse(false, "Quantity not safe, please input again");
 
     return true;
   }
 
   function validateType(type) {
-    if (!notEmpty(type)) return false;
-    if (!onlyType(type)) return false;
+    if (!notEmpty(type)) return sendResponse(false, "Type must be filled");
+    if (!onlyType(type)) return sendResponse(false, "Must be type");
     return true;
   }
 
   function isNumber(string) {
     return !Number.isNaN(parseInt(string))
       ? sendResponse(true)
-      : sendResponse(false, "Not a number");
+      : false;
   }
 
   function isSafeNumber(string) {
     return parseInt(string) < Number.MAX_SAFE_INTEGER
       ? sendResponse(true)
-      : sendResponse(false, "Not safe");
+      : false;
   }
 
   function notEmpty(val) {
     if (val === "" || !val) {
-      return sendResponse(false, "must not be empty");
+      return false;
     }
     return sendResponse(true);
   }
@@ -123,18 +123,18 @@ $(document).ready(function () {
     const types = new Set(["regular", "collector", "deluxe"]);
     return types.has(type)
       ? sendResponse(true)
-      : sendResponse(false, "Must be in type");
+      : false;
   }
 
   function minLength(string, length) {
     return string.length >= length
       ? sendResponse(true)
-      : sendResponse(false, `Must not be lower than ${length}`);
+      : false;
   }
-
-  function maxLength(string, length) {
-    return string.length <= length
+  
+  function length(string, minLength, maxLength) {
+    return (string.length >= minLength && string.length <= maxLength)
       ? sendResponse(true)
-      : sendResponse(false, `Must not be higher than ${length}`);
+      : false;
   }
 });
