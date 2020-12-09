@@ -22,6 +22,11 @@
   display: block;
   text-decoration: none;
   color: white;
+  
+}
+
+.navbar-vertical li>a>p {
+font-weight: lighter;  
 }
 
 nav .nav-menu {

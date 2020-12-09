@@ -46,7 +46,7 @@
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 650px;
 }
 
 .title-main {
@@ -87,7 +87,11 @@
   height: auto;
   background-color: #272727;
   color: white;
-  font-size: 3vw;
+}
+
+.season-name p{
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 .season-arrow {
@@ -128,18 +132,22 @@
   height: auto;
 }
 
-.highlight {
-  width: 100%;
-  text-align: center;
-  margin: 0% auto 0% auto;
-}
-
 .title-sub {
   color: white;
   font-size: 2em;
 }
 
+.highlight {
+  width: 100%;
+  text-align: center;
+  margin: 0% auto 0% auto;
+  padding-bottom: 30px;
+}
+
+
+
 .highlight-image {
+  margin-top: 10px;
   width: 80%;
   height: auto;
 }
@@ -163,6 +171,7 @@
 .highlight-text {
   font-size: 1.5em;
   font-family: "Scout Condensed Light";
+  font-weight: lighter;
   padding: 0px 40px 10px 40px;
 }
 
@@ -175,11 +184,12 @@
 .latest-news-container {
   display: flex;
   text-align: left;
-  padding: 0% 10% 5% 0%;
+  margin: 13px 0px;
 }
 
 .latest-news-image {
-  width: 31%;
+  width: 100%;
+  height: 100%;
 }
 
 .latest-news-content {
@@ -194,7 +204,6 @@
   font-size: 1em;
   margin-bottom: 2%;
   color: #888888;
-  /* margin-top: 5px; */
 }
 
 .latest-news-title {
@@ -207,5 +216,4 @@
   font-family: "Scout Condensed Light";
   letter-spacing: 1px;
   margin-top: 5px;
-  /* padding-right: 10px; */
 }
